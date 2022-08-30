@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <Navbar></Navbar>
-            <div className={Style.about}>
+            <div id='about' className={Style.about}>
                 <div className={Style.row}>
                     <div className={Style.left}>
                         <p className={Style.title}>
@@ -29,7 +29,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className={Style.skill}>
+            <div id='skill' className={Style.skill}>
                 <div className="top">
                     <h1 className={Style.skillh1}>
                         My Skill

@@ -12,9 +12,9 @@ const Navbar = () => {
             </div>
             <div className={Style.links}>
                 <ul className={Style.link}>
-                    <li><Link className={Style.li} to={'/'}>About</Link></li>
-                    <li><Link className={Style.li} to={'/'}>Skill</Link></li>
-                    <li><Link className={Style.li} to={'/'}>Contact</Link></li>
+                    <li><Link className={Style.li} to='/'>About</Link></li>
+                    <li><Link className={Style.li} to='/'>Skill</Link></li>
+                    <li><Link className={Style.li} to='/'>Contact</Link></li>
                 </ul>
             </div>
             <div className="buttons" style={{padding:"0 5rem"}}>
